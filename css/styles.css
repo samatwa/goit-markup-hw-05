@@ -772,13 +772,13 @@ body {
   width: 100%;
   height: 40px;
   border-radius: 4px;
+  color: #8e8f99;
   background-color: transparent;
   outline: transparent;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
-  color: #8e8f99;
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -877,9 +877,7 @@ body {
   fill: #ffffff;
 }
 
-.modal-privacy {
-  display: flex;
-  align-items: center;
+.modal-form-privacy {
   margin-bottom: 24px;
 }
 
