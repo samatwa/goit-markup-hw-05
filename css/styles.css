@@ -860,21 +860,23 @@ body {
 
 .input[type='checkbox']:checked + .checkbox .checkbox-icon {
   opacity: 1;
+  fill: #F4F4FD;
 }
 
 .input[type='checkbox']:focus-visible + .checkbox {
-  outline: 1px solid #4d5ae5;
-  outline-offset: 2px;
+  outline: none;
 }
 
 .input[type="checkbox"]:checked + .checkbox-icon {
   fill: #F4F4FD;
 }
 
-.input[type='checkbox']:checked + .modal-form-privacy .checkbox {
-  background-color: #4d5ae5;
-  border: none;
-  fill: #ffffff;
+.model-privacy-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-bottom: 24px;
 }
 
 .modal-form-privacy {
@@ -898,6 +900,6 @@ body {
 
 .modal-privacy-link {
   color: #4d5ae5;
-  text-decoration-line: underline;
+  text-decoration: underline;
 }
 /* #endregion Modal */
