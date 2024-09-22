@@ -854,6 +854,13 @@ body {
   border: none;
 }
 
+.input[type='checkbox']:checked + .modal-privacy .checkbox{
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+
+
 .input[type='checkbox']:checked + .checkbox .checkbox-icon {
   opacity: 1;
 }
