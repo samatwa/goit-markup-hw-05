@@ -678,7 +678,6 @@ body {
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
-  transition-delay: 500ms;
 }
 
 .modal {
@@ -854,7 +853,7 @@ body {
   border: none;
 }
 
-.input[type='checkbox']:checked + .modal-privacy .checkbox{
+.input[type='checkbox']:checked + .modal-privacy> .checkbox{
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
