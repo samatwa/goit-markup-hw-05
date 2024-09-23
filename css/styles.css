@@ -845,6 +845,10 @@ input[type='checkbox']:checked + .modal-privacy > .checkbox {
   fill: #ffffff;
 }
 
+input[type='checkbox']:checked + .checkbox > .checkbox-icon {
+  opacity: 1;
+}
+
 .model-privacy-label {
   display: flex;
   align-items: center;
